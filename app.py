@@ -32,9 +32,10 @@ def index():
         duration = request.form.get('duration')
         travel_companion = request.form.get('travel_companion')
         vacation_style = request.form.get('vacation_style')
+        transportaion = request.form.get('transportaion')
 
         # Create a user message for ChatGPT
-        user_message = f"I'm planning a {vacation_style} vacation to {destination} for {duration} days with {travel_companion}. Any recommendations?"
+        user_message = f"I'm planning a {vacation_style} vacation to {destination} for {duration} days with {travel_companion}. ma {transportaion} will be, can you plane my trip?"
 
         # Get response from ChatGPT (in practice, you'd get this from the API)
         chatgpt_response = request_chat_gpt(user_message)
