@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>your prefect vacation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='landingpageStyle.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Perfect Vacation</h1>
+        <p>מצאו את החופשה המושלמת עבורכם</p>
+        <form method="POST" action="/">
+            <label for="question1">לאן טסים?</label>
+            <textarea name="destination" id="question1" rows="1" cols="30" placeholder="Type your destination here..."></textarea>
+            <br>
+        
+            <label for="question2">לכמה זמן?</label>
+            <textarea name="duration" id="question2" rows="1" cols="30" placeholder="for how many days"></textarea>
+            <br>
+        
+            <label for="question3">עם מי טסים?</label>
+            <select name="travel_companion" id="question3">
+                <option value="partner">בן.ת זוג</option>
+                <option value="friends">חברים</option>
+                <option value="family">משפחה</option>
+            </select>
+            <br>
+        
+            <label for="question4">איזה סגנון של חופשה?</label>
+            <select name="vacation_style" id="question4">
+                <option value="relaxing">בטן גב</option>
+                <option value="urban">עירונית</option>
+                <option value="nature">טיולים בטבע</option>
+            </select>
+            <br>
+        
+            <button type="submit">תכננו עכשיו</button>
+        </form>    
+    </header>
+
+    <div>
+        <m>חופשות מומלצות לעונה</m>
+    </div>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Option one</h2>
+            <p>עירונית ותוססת</p>
+        </div>
+        <div class="feature">
+            <h2>Option Two</h2>
+            <p>בטבע הפתוח</p>
+        </div>
+        <div class="feature">
+            <h2>Option Three</h2>
+            <p>רומנטית</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Dynamic Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

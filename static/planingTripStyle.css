@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #96d975a6;
+    text-align: center;
+    direction: rtl;
+}
+
+header {
+    background-image: url(https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg
+    ); /* Add a background image */
+    color: rgb(61, 82, 62);
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+    font-family: Brush Script MT, sans-serif;
+}
+/* Style for the response box */
+.response-box {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#response-text {
+    min-height: 100px;
+    padding: 10px;
+    background-color: #66994f78;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}

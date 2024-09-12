@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Perfect Vacation</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='planingTripStyle.css') }}">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Perfect Vacation</h1>
+        
+        <!-- Form Data -->
+        {% if selected_options %}
+        <div>
+            <h2>פרטי החופשה</h2>
+            <p>לאן: {{ selected_options['Destination'] }}</p>
+            <p>כמה זמן: {{ selected_options['Duration'] }}</p>
+            <p>עם מי: {{ selected_options['Travel Companion'] }}</p>
+            <p>באיזה סגנון: {{ selected_options['Vacation Style'] }}</p>
+        </div>
+        {% else %}
+        <p></p>
+        {% endif %}
+    </header>
+        <!-- Blank Box for ChatGPT Response -->
+        <section id="chatgpt-response" class="response-box">
+            <div id="response-text">
+                {{ chatgpt_response }}    
+            </div>           
+        </section>
+    </body>
+</html>

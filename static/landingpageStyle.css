@@ -1,0 +1,117 @@
+body {
+    font-family: Brush Script MT, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #96d975a6;
+    text-align: center;
+}
+
+header {
+    background-image: url(https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg); /* Add a background image */
+    color: white;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+header form{
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #7caa65a6;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        direction: rtl; /* Ensures right-to-left text direction */
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    textarea,
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-family: inherit;
+    }
+    
+    textarea::placeholder {
+        color: #aaa;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #376b48;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: inherit;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+.action-button {
+    padding: 10px 20px;
+    background-color: #376b48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header m {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feature {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
