@@ -48,7 +48,8 @@ def index():
             'Destination': destination,
             'Duration': duration,
             'Travel Companion': travel_companion,
-            'Vacation Style': vacation_style
+            'Vacation Style': vacation_style,
+            'transportaion': transportaion
         }
 
         # Render the result page with the gathered data
